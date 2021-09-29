@@ -1,0 +1,57 @@
+name: baja_app
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.12.0
+  adobe_xd:
+  carousel_slider: ^3.0.0
+  animated_text_kit: ^3.1.2
+  google_fonts: ^1.1.2
+  pin_code_fields: ^6.1.0
+  matrix4_transform: ^1.1.7
+  cached_network_image: 2.1.0
+
+
+  ########
+  provider: ^4.0.2
+  intl: ^0.16.0
+  awesome_dialog: ^1.2.1
+  fluttertoast: ^7.0.2
+  shared_preferences: ^0.5.8
+
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: ^0.12.0+2
+  flutter_launcher_icons: "^0.7.4"
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path_ios: "assets/logo/app_icon.jpg"
+  image_path_android: "assets/logo/app_icon.jpg"
+  adaptive_icon_background: "assets/logo/app_icon.jpg"
+  adaptive_icon_foreground: "assets/logo/app_icon.jpg"
+
+flutter:
+  fonts:
+    - family: CenturyGothic
+      fonts:
+        - asset: assets/fonts/centuryGothic.ttf
+          style: italic
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/logo/
+
